@@ -1,0 +1,11 @@
+{
+    "name": "mohamed179/dsaa",
+    "authors": [
+        {
+            "name": "Mohamed Kamal",
+            "description": "A pure PHP data structures and algorithms package",
+            "email": "mohamed77zaki@gmail.com"
+        }
+    ],
+    "require": {}
+}
