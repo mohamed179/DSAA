@@ -72,6 +72,7 @@ class AdjList {
      *
      * @param int $u
      * @param array $visited
+     * @param array $dfs_list
      */
     private function run_dfs ($u, &$visited, &$dfs_list) {
         if ($visited[$u] == self::UNVISITED) {
@@ -98,6 +99,13 @@ class AdjList {
         return $bfs_list;
     }
 
+    /**
+     * Run the breadth first search for a sub graph of an adjList.
+     *
+     * @param int $u
+     * @param array $visited
+     * @param array $bfs_list
+     */
     private function run_bfs ($u, &$visited, &$bfs_list) {
         $queue = new Queue();
         $queue->enqueue($u);
